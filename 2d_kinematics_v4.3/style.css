@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    background-color:hsl(0, 0%, 70%);
+}
+
+#startButton {
+    background-color:hsl(183, 26%, 32%);
+    color:hsl(0, 0%, 100%);
+    font-size:1em;
+    padding:2.5px 5px;
+    border-radius:5px;
+    border-color:hsl(0, 0%, 100%);
+    transition:background-color 0.1s ease;
+    cursor:pointer;
+}
+
+#startButton:hover {
+    background-color:hsl(183, 26%, 22%)
+}
+
+#startButton:active {
+    background-color:hsl(183, 26%, 42%)
+}
+
+#canvas {
+    background-color:hsl(182, 25%, 50%);
+}
